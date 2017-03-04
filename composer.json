@@ -1,0 +1,20 @@
+{
+	"name": "liyyt/silverstripe-cloudassets-s3",
+	"description": "Amazon S3 bucket driver for markguinn/silverstripe-cloudassets",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "assets", "cdn", "cloud storage", "amazon", "s3", "cloudassets"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Aaron Bolanos",
+		"email": "aaron@liyyt.com",
+		"homepage": "http://github.com/liyyt"
+	}],
+	"extra": {
+		"installer-name": "cloudassets-s3"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"markguinn/silverstripe-cloudassets": "*",
+		"aws/aws-sdk-php": "^3.23"
+	}
+}
